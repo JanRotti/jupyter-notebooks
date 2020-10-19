@@ -239,4 +239,4 @@ class GAN():
     NewImage.save('%s/generated_%s_%d.png' % (self.SavePath,self.Name,self.ImagesSavedCount))      
     
     # Update Counter for Image Naming
-    self.ImagesSavedCount += 1  
+    self.ImagesSavedCount += 1     
